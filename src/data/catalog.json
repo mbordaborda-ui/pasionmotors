@@ -1,0 +1,559 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "note": "Catálogo editable desde /admin. `stock` controla el inventario: se descuenta en cada venta y bloquea la compra cuando llega a 0. `sold` es informativo. `cost` es el costo unitario de compra (solo para calcular márgenes en el panel). `price` en null se muestra como 'Precio por confirmar'.",
+  "products": [
+    {
+      "id": "acc-aleron-frontal",
+      "slug": "aleron-frente-carro",
+      "name": "Alerón frente de carro",
+      "category": "accesorios",
+      "price": 29900,
+      "cost": 8822,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Presencia frontal que se nota.",
+      "description": "Alerón frontal universal que le da a tu carro una presencia más agresiva y aerodinámica. Acabado listo para instalar, resistente a la intemperie y compatible con la mayoría de vehículos.",
+      "images": [
+        "/products/aleron-1.jpg",
+        "/products/aleron-2.jpg"
+      ],
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "acc-protectores-hombro-negro",
+      "slug": "protectores-de-hombro-negro",
+      "name": "Protectores de hombro negro",
+      "category": "accesorios",
+      "price": 29900,
+      "cost": 18310,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Protección y estilo dentro del habitáculo.",
+      "description": "Protectores de hombro para cinturón en color negro. Detalles pendientes de confirmar.",
+      "images": [],
+      "order": 2
+    },
+    {
+      "id": "col-porsche-burago-azul",
+      "slug": "porsche-burago-azul",
+      "name": "Porsche Bburago azul",
+      "category": "coleccionables",
+      "price": 24900,
+      "cost": 19948,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Colección Burago.",
+      "description": "Miniatura coleccionable Porsche Bburago en color azul. Escala y detalles pendientes de confirmar.",
+      "images": [],
+      "order": 3
+    },
+    {
+      "id": "col-porsche-burago-negro",
+      "slug": "porsche-burago-negro",
+      "name": "Porsche Bburago negro",
+      "category": "coleccionables",
+      "price": 24900,
+      "cost": 19948,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Colección Burago.",
+      "description": "Miniatura coleccionable Porsche Bburago en color negro. Escala y detalles pendientes de confirmar.",
+      "images": [],
+      "order": 4
+    },
+    {
+      "id": "acc-llavero-rueda-negro-amarillo",
+      "slug": "llavero-rueda-negro-amarillo",
+      "name": "Llavero rueda negro-amarillo",
+      "category": "accesorios",
+      "price": 14900,
+      "cost": 8721,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Detalle de rueda.",
+      "description": "Llavero con forma de rueda en negro y amarillo.",
+      "images": [],
+      "order": 5
+    },
+    {
+      "id": "cam-camiseta-tokio",
+      "slug": "camiseta-tokio",
+      "name": "Camiseta Tokio",
+      "category": "camisetas",
+      "price": 40900,
+      "cost": 20714,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Estética JDM.",
+      "description": "Camiseta con diseño Tokio. Tallas y material pendientes de confirmar.",
+      "images": [],
+      "variants": [
+        {
+          "id": "talla",
+          "name": "Talla",
+          "options": [
+            {
+              "id": "s",
+              "label": "S"
+            },
+            {
+              "id": "m",
+              "label": "M"
+            },
+            {
+              "id": "l",
+              "label": "L"
+            },
+            {
+              "id": "xl",
+              "label": "XL"
+            }
+          ]
+        }
+      ],
+      "featured": true,
+      "order": 6
+    },
+    {
+      "id": "acc-protectores-hombro-rojo",
+      "slug": "protectores-de-hombro-rojo",
+      "name": "Protectores de hombro rojo",
+      "category": "accesorios",
+      "price": 29990,
+      "cost": 13506,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Protección y estilo dentro del habitáculo.",
+      "description": "Protectores de hombro para cinturón en color rojo. Detalles pendientes de confirmar.",
+      "images": [],
+      "order": 7
+    },
+    {
+      "id": "acc-soporte-silla-rojo",
+      "slug": "soporte-silla-rojo-celular",
+      "name": "Soporte silla rojo celular",
+      "category": "accesorios",
+      "price": 29990,
+      "cost": 12872,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Tu celular siempre a la vista.",
+      "description": "Soporte de celular para silla en acabado rojo. Fotografía y medidas pendientes de confirmar.",
+      "images": [],
+      "order": 8
+    },
+    {
+      "id": "acc-luces-led-interior",
+      "slug": "luces-led-interior-carro",
+      "name": "Luces LED interior carro",
+      "category": "accesorios",
+      "price": 34900,
+      "cost": 15408,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Ambiente deportivo a bordo.",
+      "description": "Iluminación LED interior para personalizar el ambiente del vehículo. Especificaciones (colores, conexión) pendientes de confirmar.",
+      "images": [],
+      "isNew": true,
+      "order": 9
+    },
+    {
+      "id": "acc-sticker-frente",
+      "slug": "sticker-frente-carro",
+      "name": "Sticker frente carro",
+      "category": "accesorios",
+      "price": 24900,
+      "cost": 10435,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Detalle que habla por tu carro.",
+      "description": "Sticker para la parte frontal del carro. Tamaño y diseño pendientes de confirmar.",
+      "images": [],
+      "order": 10
+    },
+    {
+      "id": "acc-volante-carbono",
+      "slug": "volante-fibra-de-carbono",
+      "name": "Volante fibra de carbono",
+      "category": "accesorios",
+      "price": 59900,
+      "cost": 29982,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Textura racing al alcance de tus manos.",
+      "description": "Volante con acabado en fibra de carbono. Compatibilidad y detalles pendientes de confirmar.",
+      "images": [],
+      "featured": true,
+      "order": 11
+    },
+    {
+      "id": "acc-llavero-rueda-plateado",
+      "slug": "llavero-rueda-plateado",
+      "name": "Llavero rueda plateado",
+      "category": "accesorios",
+      "price": 14900,
+      "cost": 8721,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Acabado plateado.",
+      "description": "Llavero con forma de rueda en plateado.",
+      "images": [],
+      "order": 12
+    },
+    {
+      "id": "acc-llavero-rueda-negro-rojo",
+      "slug": "llavero-rueda-negro-rojo",
+      "name": "Llavero rueda negro-rojo",
+      "category": "accesorios",
+      "price": 14900,
+      "cost": 6291,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Los colores de la marca.",
+      "description": "Llavero con forma de rueda en negro y rojo.",
+      "images": [],
+      "featured": true,
+      "order": 13
+    },
+    {
+      "id": "cam-camiseta-porsche-blanca",
+      "slug": "camiseta-porsche-blanca",
+      "name": "Camiseta Porsche blanca",
+      "category": "camisetas",
+      "price": 59900,
+      "cost": 23093,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Clásico en blanco.",
+      "description": "Camiseta Porsche en color blanco. Tallas y material pendientes de confirmar.",
+      "images": [],
+      "variants": [
+        {
+          "id": "talla",
+          "name": "Talla",
+          "options": [
+            {
+              "id": "s",
+              "label": "S"
+            },
+            {
+              "id": "m",
+              "label": "M"
+            },
+            {
+              "id": "l",
+              "label": "L"
+            },
+            {
+              "id": "xl",
+              "label": "XL"
+            }
+          ]
+        }
+      ],
+      "order": 14
+    },
+    {
+      "id": "cam-camiseta-porsche-negra-morado",
+      "slug": "camiseta-porsche-negra-morado",
+      "name": "Camiseta Porsche negra morado",
+      "category": "camisetas",
+      "price": 59900,
+      "cost": 23093,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Contraste atrevido.",
+      "description": "Camiseta Porsche en negro con detalles morados. Tallas y material pendientes de confirmar.",
+      "images": [],
+      "variants": [
+        {
+          "id": "talla",
+          "name": "Talla",
+          "options": [
+            {
+              "id": "s",
+              "label": "S"
+            },
+            {
+              "id": "m",
+              "label": "M"
+            },
+            {
+              "id": "l",
+              "label": "L"
+            },
+            {
+              "id": "xl",
+              "label": "XL"
+            }
+          ]
+        }
+      ],
+      "order": 15
+    },
+    {
+      "id": "cam-camiseta-rays",
+      "slug": "camiseta-rays",
+      "name": "Camiseta Rays",
+      "category": "camisetas",
+      "price": 59900,
+      "cost": 26350,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Estilo de rueda legendaria.",
+      "description": "Camiseta Rays. Tallas y material pendientes de confirmar.",
+      "images": [],
+      "variants": [
+        {
+          "id": "talla",
+          "name": "Talla",
+          "options": [
+            {
+              "id": "s",
+              "label": "S"
+            },
+            {
+              "id": "m",
+              "label": "M"
+            },
+            {
+              "id": "l",
+              "label": "L"
+            },
+            {
+              "id": "xl",
+              "label": "XL"
+            }
+          ]
+        }
+      ],
+      "order": 16
+    },
+    {
+      "id": "cam-camiseta-rays-azul",
+      "slug": "camiseta-rays-azul",
+      "name": "Camiseta Rays azul",
+      "category": "camisetas",
+      "price": 59900,
+      "cost": 26350,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Rays en azul.",
+      "description": "Camiseta Rays en color azul. Tallas y material pendientes de confirmar.",
+      "images": [],
+      "variants": [
+        {
+          "id": "talla",
+          "name": "Talla",
+          "options": [
+            {
+              "id": "s",
+              "label": "S"
+            },
+            {
+              "id": "m",
+              "label": "M"
+            },
+            {
+              "id": "l",
+              "label": "L"
+            },
+            {
+              "id": "xl",
+              "label": "XL"
+            }
+          ]
+        }
+      ],
+      "isNew": true,
+      "order": 17
+    },
+    {
+      "id": "acc-llaveros-variados",
+      "slug": "llaveros-variados",
+      "name": "Llaveros variados",
+      "category": "accesorios",
+      "price": 9900,
+      "cost": 3536,
+      "stock": 8,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Surtidos para elegir.",
+      "description": "Selección de llaveros variados.",
+      "images": [],
+      "order": 18
+    },
+    {
+      "id": "acc-llaveros-variados-promo",
+      "slug": "llaveros-variados-promo",
+      "name": "Llaveros variados promo",
+      "category": "accesorios",
+      "price": 9990,
+      "cost": 3059,
+      "stock": 8,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Pack promocional.",
+      "description": "Pack promocional de llaveros variados.",
+      "images": [],
+      "order": 19
+    },
+    {
+      "id": "cam-camiseta-porsche-blanca-mujer",
+      "slug": "camiseta-porsche-blanca-mujer",
+      "name": "Camiseta Porsche blanca mujer",
+      "category": "camisetas",
+      "price": 59900,
+      "cost": 15982,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Corte mujer.",
+      "description": "Camiseta Porsche blanca con corte de mujer. Tallas y material pendientes de confirmar.",
+      "images": [],
+      "variants": [
+        {
+          "id": "talla",
+          "name": "Talla",
+          "options": [
+            {
+              "id": "xs",
+              "label": "XS"
+            },
+            {
+              "id": "s",
+              "label": "S"
+            },
+            {
+              "id": "m",
+              "label": "M"
+            },
+            {
+              "id": "l",
+              "label": "L"
+            }
+          ]
+        }
+      ],
+      "order": 20
+    },
+    {
+      "id": "cam-camiseta-porsche-mujer-negra-rosa",
+      "slug": "camiseta-porsche-mujer-negra-rosa",
+      "name": "Camiseta Porsche mujer negra rosa",
+      "category": "camisetas",
+      "price": 59900,
+      "cost": 22105,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Actitud en negro y rosa.",
+      "description": "Camiseta Porsche para mujer en negro con detalles rosados. Tallas y material pendientes de confirmar.",
+      "images": [],
+      "variants": [
+        {
+          "id": "talla",
+          "name": "Talla",
+          "options": [
+            {
+              "id": "xs",
+              "label": "XS"
+            },
+            {
+              "id": "s",
+              "label": "S"
+            },
+            {
+              "id": "m",
+              "label": "M"
+            },
+            {
+              "id": "l",
+              "label": "L"
+            }
+          ]
+        }
+      ],
+      "order": 21
+    },
+    {
+      "id": "cam-camiseta-porsche-hombre-negra",
+      "slug": "camiseta-porsche-hombre-negra",
+      "name": "Camiseta Porsche hombre negra",
+      "category": "camisetas",
+      "price": 59900,
+      "cost": 29925,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Corte hombre.",
+      "description": "Camiseta Porsche negra con corte de hombre. Tallas y material pendientes de confirmar.",
+      "images": [],
+      "variants": [
+        {
+          "id": "talla",
+          "name": "Talla",
+          "options": [
+            {
+              "id": "s",
+              "label": "S"
+            },
+            {
+              "id": "m",
+              "label": "M"
+            },
+            {
+              "id": "l",
+              "label": "L"
+            },
+            {
+              "id": "xl",
+              "label": "XL"
+            },
+            {
+              "id": "xxl",
+              "label": "XXL"
+            }
+          ]
+        }
+      ],
+      "order": 22
+    },
+    {
+      "id": "col-ford-mustang-burago",
+      "slug": "ford-mustang-burago",
+      "name": "Ford Mustang Bburago",
+      "category": "coleccionables",
+      "price": 24900,
+      "cost": 19913,
+      "stock": 1,
+      "sold": 0,
+      "availability": "disponible",
+      "tagline": "Icono americano en miniatura.",
+      "description": "Miniatura coleccionable Ford Mustang Bburago. Escala y detalles pendientes de confirmar.",
+      "images": [],
+      "featured": true,
+      "isNew": true,
+      "order": 23
+    }
+  ]
+}

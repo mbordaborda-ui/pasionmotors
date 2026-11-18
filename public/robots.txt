@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /cuenta
+Disallow: /checkout
+Disallow: /login
+Disallow: /recuperar
+Disallow: /favoritos
+
+Sitemap: https://pasionmotorscol.netlify.app/sitemap.xml

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0B0B0D" />
+    <title>Sin conexión · PASION MOTORS</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #0b0b0d;
+        --ink-800: #16161a;
+        --brand: #ff1e2d;
+        --line: rgba(255, 255, 255, 0.12);
+        --muted: rgba(255, 255, 255, 0.6);
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        background:
+          radial-gradient(circle at 50% 0%, rgba(255, 30, 45, 0.18), transparent 55%),
+          var(--ink);
+        color: #fff;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        text-align: center;
+      }
+      .card {
+        width: min(100%, 430px);
+        padding: 36px 28px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: rgba(22, 22, 26, 0.72);
+        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+      }
+      img {
+        width: 92px;
+        height: 92px;
+        object-fit: contain;
+      }
+      .eyebrow {
+        margin: 22px 0 0;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--brand);
+      }
+      h1 {
+        margin: 10px 0 0;
+        font-size: clamp(28px, 8vw, 40px);
+        line-height: 0.95;
+        text-transform: uppercase;
+        letter-spacing: -0.03em;
+      }
+      p {
+        margin: 14px auto 0;
+        max-width: 330px;
+        font-size: 14px;
+        line-height: 1.65;
+        color: var(--muted);
+      }
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 26px;
+        min-height: 46px;
+        padding: 0 24px;
+        border-radius: 999px;
+        background: var(--brand);
+        color: #fff;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-decoration: none;
+        box-shadow: 0 12px 30px rgba(255, 30, 45, 0.28);
+      }
+      small {
+        display: block;
+        margin-top: 18px;
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.35);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <img src="/icons/icon-192.png" alt="PASION MOTORS" width="92" height="92" />
+      <p class="eyebrow">Drive the Passion</p>
+      <h1>Sin conexión</h1>
+      <p>
+        No pudimos conectar con la tienda. Revisa tu internet y vuelve a intentarlo. Tus datos y tu
+        carrito siguen guardados en este dispositivo.
+      </p>
+      <a href="/">Reintentar</a>
+      <small>PASION MOTORS · Cultura automotriz</small>
+    </main>
+  </body>
+</html>
